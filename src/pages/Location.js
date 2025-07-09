@@ -4,21 +4,18 @@ import kakaoMapIcon from '../images/kakao.png';
 
 function Location() {
   const mapRef = useRef(null);
-  const lat = 37.504038; // 위도
-  const lng = 127.042777; // 경도
+  const lat = 37.3595704; // 위도
+  const lng = 127.105399; // 경도
 
   useEffect(() => {
     const { naver } = window;
     if (mapRef.current && naver) {
-      const location = new naver.maps.LatLng(lat, lng);
-      const map = new naver.maps.Map(mapRef.current, {
-        center: location,
-        zoom: 15, // 지도 확대 정도
-      });
-      new naver.maps.Marker({
-        position: location,
-        map,
-      });
+      var mapOptions = {
+        center: new naver.maps.LatLng(lat, lng),
+        zoom: 10
+      };
+    
+      var map = new naver.maps.Map('map', mapOptions);
     }
   }, []);
 
@@ -35,10 +32,10 @@ function Location() {
     <div className='container'>
     <div className='title'>오시는 길</div>
     <div className='location__details'>
-      <div>상록아트홀 그랜드볼룸홀</div>
-      <div>서울 강남구 언주로 508 상록회관 5층</div>
+      <div>더베뉴지 아트홀</div>
+      <div>서울 강서구 강서로 388 1층</div>
     </div>
-    <div ref={mapRef} className='location__map'></div>
+    <div id="map" ref={mapRef} className='location__map'></div>
     <div className='location__map-icon-box'>
         <div className='location__map-item' onClick={gotoNavermap}>
           <img src={naverMapIcon} className='location__map-icon' alt="naverMap"/>
@@ -50,7 +47,7 @@ function Location() {
         </div>
     </div>
    <div className='location__info'>
-    <div>선릉역 5번 출구에서 580m</div>
+    <div>5호선 발산역 3번출구 도보 4분</div>
    </div>
 </div>
   )

@@ -51,7 +51,7 @@ function App() {
       {/* <Submit openModal={openModal}/> */}
       <Quiz/>
       <Contact />
-      <Comment />
+      {/* <Comment /> */}
       <Footer />
     </div>
   );
