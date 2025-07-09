@@ -4,27 +4,30 @@ import kakaoMapIcon from '../images/kakao.png';
 
 function Location() {
   const mapRef = useRef(null);
-  const lat = 37.3595704; // 위도
-  const lng = 127.105399; // 경도
+  const lat = 37.560152; // 위도
+  const lng = 126.839323; // 경도
 
   useEffect(() => {
-    const { naver } = window;
-    if (mapRef.current && naver) {
-      var mapOptions = {
+     const { naver } = window;
+     if (mapRef.current && naver) {
+      var map = new naver.maps.Map('map', {
         center: new naver.maps.LatLng(lat, lng),
-        zoom: 10
-      };
+        zoom: 15
+    });
     
-      var map = new naver.maps.Map('map', mapOptions);
+    var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(lat, lng),
+        map: map
+    });
     }
   }, []);
 
   const gotoNavermap = () => {
-    window.location.href = ''
+    window.location.href = 'https://naver.me/Ff47Nzx0'
   }
 
   const gotoKakaomap = () => {
-    window.location.href = ''
+    window.location.href = 'https://place.map.kakao.com/8700757'
   }
   
 
@@ -53,5 +56,4 @@ function Location() {
   )
 }
 
-
-export default Location
+export default Location;
