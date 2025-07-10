@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.dd6dfe5b.css",
-    "main.js": "/wedding/static/js/main.f4485b66.js",
+    "main.css": "/wedding/static/css/main.2f268715.css",
+    "main.js": "/wedding/static/js/main.2a8e88b9.js",
     "static/js/787.d00bc756.chunk.js": "/wedding/static/js/787.d00bc756.chunk.js",
     "static/media/taeyeon_poem.mp3": "/wedding/static/media/taeyeon_poem.13d16db4a02836cf5d9d.mp3",
     "static/media/부크크명조_얇은글씨.woff": "/wedding/static/media/부크크명조_얇은글씨.4dd24ae27c5fa573aaf0.woff",
@@ -22,12 +22,12 @@
     "static/media/s1.png": "/wedding/static/media/s1.7ffa9f05ab15c8c8c95e.png",
     "static/media/naver.webp": "/wedding/static/media/naver.7717483eebafa7435918.webp",
     "index.html": "/wedding/index.html",
-    "main.dd6dfe5b.css.map": "/wedding/static/css/main.dd6dfe5b.css.map",
-    "main.f4485b66.js.map": "/wedding/static/js/main.f4485b66.js.map",
+    "main.2f268715.css.map": "/wedding/static/css/main.2f268715.css.map",
+    "main.2a8e88b9.js.map": "/wedding/static/js/main.2a8e88b9.js.map",
     "787.d00bc756.chunk.js.map": "/wedding/static/js/787.d00bc756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd6dfe5b.css",
-    "static/js/main.f4485b66.js"
+    "static/css/main.2f268715.css",
+    "static/js/main.2a8e88b9.js"
   ]
 }
