@@ -5,7 +5,6 @@ import { BsPlayCircle, BsStopCircle } from "react-icons/bs";
 import { GoHeartFill } from "react-icons/go";
 import myMusic from '../media/taeyeon_poem.mp3';
 
-
 function Cover() {
 
   const [isPlaying, setIsPlaying] = useState(false);
@@ -24,15 +23,17 @@ function Cover() {
       audio.currentTime = 0; // Ensure music starts from the beginning next time
     };
   }, [isPlaying]);
+  
+    
 
   return (
     <div className="container">
         <div className='title'>&ldquo;우리 결혼합니다&rdquo;</div>
         <img className="cover__main-photo" src={mainPhoto} alt='weddingcouple'></img>
         <div className='cover__person'>
-        <div>김신랑</div>
+        <div>{process.env.REACT_APP_GROOM_NAME}</div>
         <GoHeartFill className='cover__icon-heart' size="0.8em"/>
-        <div>이신부</div>
+        <div>{process.env.REACT_APP_BRIDE_NAME}</div>
         </div>
         <div className='cover__date'>2026년 1월 18일, 일요일 11시 50분</div>
         <div className='cover__place'>더베뉴지 아트홀</div>

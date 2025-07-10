@@ -40,6 +40,7 @@ function App() {
     //   setIsModalOpen(true);
     // }
 
+
   return (
     <div className="App">
       {isModalOpen && <SurveyModal closeModal={closeModal} />}
@@ -48,10 +49,8 @@ function App() {
       <Calendar />
       <ImgGallery />
       <Location />
-      {/* <Submit openModal={openModal}/> */}
       <Quiz/>
       <Contact />
-      {/* <Comment /> */}
       <Footer />
     </div>
   );
