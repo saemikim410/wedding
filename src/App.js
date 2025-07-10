@@ -21,7 +21,7 @@ import Contact from './pages/Account.js';
 import Location from './pages/Location.js';
 import ImgGallery from './pages/ImgGallery.js';
 import Footer from './components/Footer.js';
-import SurveyModal from './components/SurveyModal.js';
+//import SurveyModal from './components/SurveyModal.js';
 // import Submit from './pages/Submit.js';
 //import Comment from './pages/Comment.js';
 import Quiz from './pages/Quiz.js';
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-      {isModalOpen && <SurveyModal closeModal={closeModal} />}
+      {isModalOpen}
       <Cover/>
       <Invitation />
       <Calendar />
