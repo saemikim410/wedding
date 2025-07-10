@@ -34,15 +34,15 @@ function ContactButton({ person, account, kakaopay }) {
 
   function Account() {
     const groom_contact = [
-      { person: "신랑 김신랑", account: "우리은행 1002-123-456789", kakaopay: "" },
-      { person: "아버지 김아빠", account: "우리은행 0123456789", kakaopay: "" },
-      { person: "어머니 박엄마", account: "농협은행 0123456789", kakaopay: "" },
+      { person: "신랑 " + process.env.REACT_APP_GROOM_NAME, account: process.env.REACT_APP_GROOM_ACCOUT, kakaopay: ""  },
+      { person: "아버지 " + process.env.REACT_APP_GROOM_DAD, account: process.env.REACT_APP_GROOM_DAD_ACCOUT, kakaopay: ""  },
+      { person: "어머니 " + process.env.REACT_APP_GROOM_MOM, account: process.env.REACT_APP_GROOM_MOM_ACCOUT, kakaopay: ""  },
     ];
 
     const bride_contact = [
-        { person: "신부 이신부", account: "토스뱅크 1000-0123-4567" , kakaopay: "" },
-        { person: "아버지 이아빠", account: "기업은행 0123456789", kakaopay: ""},
-        { person: "어머니 우엄마", account: "국민은행 0123456789", kakaopay: "" },
+      { person: "신부 " + process.env.REACT_APP_BRIDE_NAME, account: process.env.REACT_APP_BRIDE_ACCOUT, kakaopay: "" },
+      { person: "아버지 " + process.env.REACT_APP_BRIDE_DAD, account: process.env.REACT_APP_BRIDE_DAD_ACCOUT, kakaopay: "" },
+      { person: "어머니 " + process.env.REACT_APP_BRIDE_MOM, account: process.env.REACT_APP_BRIDE_MOM_ACCOUT, kakaopay: "" },
       ];
   
     return (
