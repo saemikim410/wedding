@@ -13,6 +13,7 @@ import './css/Submit.css'
 import './css/Comment.css'
 import './css/Quiz.css'
 
+import usePreventZoom from './hooks/usePreventZoom.js';
 import Cover from './pages/Cover.js'
 import Invitation from './pages/Invitation.js';
 import Calendar from './pages/Calendar.js';
@@ -28,6 +29,7 @@ import Quiz from './pages/Quiz.js';
 
 
 function App() {
+  usePreventZoom();
 
   const [isModalOpen, setIsModalOpen] = useState(false); // 우선 모달창 닫아놓음
   
