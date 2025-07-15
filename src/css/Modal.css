@@ -31,14 +31,26 @@
     text-align: left;
     margin: 20px;
   }
+  
+  .modal__details2 {
+    width: 280px;
+    border: 1px solid rgb(32, 25, 95);
+    border-radius: 3px;
+    text-align: left;
+    margin: 20px;
+  }
 
-  .modal__details div {
+  .modal__details div, .modal__details2 div {
     padding: 10px 20px;
     font-size: large;
   }
 
   .modal_line {
     border-bottom: 1px solid rgb(95, 25, 25);
+  }
+
+  .modal_line2 {
+    border-bottom: 1px solid rgb(32, 25, 95);
   }
 
 
@@ -72,6 +84,10 @@
  
   .modal__btn-copy {
     background-color:rgb(236, 199, 199);
+  }
+  
+  .modal__btn-copy2 {
+    background-color:rgb(199, 199, 236);
   }
 
 

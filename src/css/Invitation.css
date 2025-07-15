@@ -30,7 +30,7 @@
     font-weight: bold;
   }
 
-  .invitation__btn-contact {
+  .invitation__btn-contact, .invitation__btn-contact2 {
     font-family: 'GangwonEdu';
     font-size: x-large;
     margin-top: 30px;
@@ -42,5 +42,10 @@
 
   .invitation__btn-contact:hover {
     background-color: rgb(243, 180, 180);
+  }
+  
+
+  .invitation__btn-contact2:hover {
+    background-color: #96aee8;
   }
   

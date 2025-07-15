@@ -37,7 +37,7 @@ function Cover() {
         </div>
         <div className='cover__date'>2026年 1月 18日, 11時 50分(日)</div>
         <div className='cover__place'>더베뉴지 아트홀</div>
-        <div className='cover__line'></div>
+        <div className='cover__line2'></div>
         <div className='cover__icon-box'>
           <TbPlayerTrackPrevFilled size="1.5em"/>
           <TbPlayerSkipBackFilled size="1.5em"/>

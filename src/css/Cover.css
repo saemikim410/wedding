@@ -53,12 +53,21 @@
     }
   }
   
-  .cover__line {
+  .cover__line, .cover__line2 {
     border-radius: 2px;
     margin-top: 30px;
     width: 340px;
     height: 4px;
     background: linear-gradient(to right, rgb(170, 138, 138), rgb(170, 138, 138)); /* 시작 색상부터 끝 색상까지의 그라데이션 설정 */
+  }
+  
+  .cover__line {
+    background: linear-gradient(to right, rgb(170, 138, 138), rgb(170, 138, 138)); /* 시작 색상부터 끝 색상까지의 그라데이션 설정 */
+  }
+  
+  
+  .cover__line2 {
+    background: linear-gradient(to right, rgb(138, 143, 170), rgb(138, 143, 170)); /* 시작 색상부터 끝 색상까지의 그라데이션 설정 */
   }
   
   .cover__line::after {
@@ -68,6 +77,15 @@
     width: 100%;
     height: 100%;
     background-color: rgb(95, 25, 25);;
+    animation: playAnimation 20s infinite; /* 애니메이션 지속 시간 및 무한 반복 설정 */
+  }
+  .cover__line2::after {
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 25, 95);;
     animation: playAnimation 20s infinite; /* 애니메이션 지속 시간 및 무한 반복 설정 */
   }
   

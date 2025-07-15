@@ -6,7 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'GangwonEdu';
+  
+}
+
+.Tap1 {
   color: rgb(95, 25, 25); /* 기본 폰트 색상 */
+}
+
+.Tap2 {
+  color: rgb(14, 6, 80); /* 기본 폰트 색상 */
 }
 
 code {

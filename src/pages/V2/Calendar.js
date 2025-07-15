@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import flower from '../../images/flower.png'
+import butterfly from '../../images/butterfly.png'
 
 
 function CalendarDay({ day, isWeddingDay, isHoliday }) {
@@ -59,9 +59,9 @@ function Calendar() {
 
   return (
     <div className='container calendar'>
-      <img src={flower} className="flower" alt='flower'/>
-      <h3>2026년 1월 18일 일요일 11시 50분</h3>
-      <div className='calendar__line'></div>
+      <img src={butterfly} className="butterfly" alt='butterfly'/>
+      <h3>2026年 1月 18日, 11時 50分(日)</h3>
+      <div className='calendar__line2'></div>
       <div className="calendar__body">
         <div className="calendar__weekdays">
           {['일', '월', '화', '수', '목', '금', '토'].map((day) => (
@@ -77,7 +77,7 @@ function Calendar() {
           ))}
         </div>
       </div>
-      <div className='calendar__remain'>
+      <div className='calendar__remain2'>
         <span>{timeLeft.days}일</span>
         <span>{timeLeft.hours}시간</span>
         <span>{timeLeft.minutes}분</span>

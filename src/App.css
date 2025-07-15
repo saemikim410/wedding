@@ -3,11 +3,6 @@
   
 }
 
-a {
-  text-decoration-line: none;
-  color: rgb(95, 25, 25); 
-}
-
 .nav-tabs {
   display:flex;
   justify-content:center;
@@ -17,7 +12,9 @@ a {
   font-size:18px
 }
 
-.nav-link {
+.tab_item1 {
+  text-decoration-line: none;
+  color: rgb(95, 25, 25); 
   padding:10px 20px;
   border-radius:50px;
   font-weight:700;
@@ -25,10 +22,25 @@ a {
   background:#fdf7f7;
   transition:all .3s
 }
-.nav-link:hover{padding:10px 30px}
-.nav-link.active{color:#fff;background:#f3b4b4}
+.tab_item1:hover, .tab_item2:hover{padding:10px 30px}
+.tab_item1.active{color:#fff;background:#f3b4b4}
+
+
+.tab_item2 {
+  text-decoration-line: none;
+  color: rgb(14, 6, 80); 
+  padding:10px 20px;
+  border-radius:50px;
+  font-weight:700;
+  cursor:pointer;
+  background:#eff0f4;
+  transition:all .3s
+}
+
+.tab_item2.active{color:#fff;background:#96aee8}
 
 .title {
+  font-weight: bold;
   font-size: xx-large;
 }
 
@@ -45,6 +57,10 @@ a {
   width: 150px;
 }
 
+.butterfly {
+  width: 230px;
+}
+
 button {
   cursor: pointer;
 }
@@ -55,4 +71,8 @@ button {
 
 .bc-pink {
   background-color: #fdf7f7;;
+}
+
+.bc-blue {
+  background-color: #dde3f2;;
 }

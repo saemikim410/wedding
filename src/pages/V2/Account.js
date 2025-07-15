@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import flower from '../../images/flower.png'
+import butterfly from '../../images/butterfly.png'
 // import { MdOutlinePhoneIphone } from "react-icons/md";
 import { FaMoneyCheck } from "react-icons/fa6";
-import Modal from '../../components/Modal';
+import Modal from '../../components/Modal2';
 import '../../css/Modal.css'
 
 function ContactButton({ person, account, kakaopay }) {
@@ -18,10 +18,10 @@ function ContactButton({ person, account, kakaopay }) {
   
     return (
       <>
-        <div className="contact__box">
+        <div className="contact__box2">
           <span>{person}</span>
           <div className="contact__icons">
-            <button onClick={openModal} className="contact__btn"><FaMoneyCheck size="1.5em"/></button>
+            <button onClick={openModal} className="contact__btn2"><FaMoneyCheck size="1.5em"/></button>
           </div>
         </div>
         {isModalOpen && (
@@ -47,14 +47,14 @@ function ContactButton({ person, account, kakaopay }) {
   
     return (
       <div className="container">
-        <img src={flower} className="flower" alt="flower"/>
+        <img src={butterfly} className="butterfly" alt="butterfly"/>
         <div className='contact__title'>마음 전하는 곳</div>
-        <div className="contact__boxes">
+        <div className="contact__boxes2">
           {groom_contact.map((contact, index) => (
             <ContactButton key={index} person={contact.person} account={contact.account} kakaopay={contact.kakaopay}/>
           ))}
         </div>
-        <div className="contact__boxes">
+        <div className="contact__boxes2">
           {bride_contact.map((contact, index) => (
             <ContactButton key={index} person={contact.person} account={contact.account} kakaopay={contact.kakaopay}/>
           ))}

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import flower from '../../images/flower.png'
-import ContactModal from '../../components/ContactModal';
+import butterfly from '../../images/butterfly.png'
+import ContactModal from '../../components/ContactModal2';
 
 function Invitation() {
 
@@ -26,8 +26,8 @@ function Invitation() {
     )
   }
   return (
-    <div className='bc-pink container'>
-        <img src={flower} className='flower' alt='flower'/>
+    <div className='bc-blue container'>
+        <img src={butterfly} className='butterfly' alt='butterfly'/>
         <div className='invitation__title'>초대합니다</div>
         <div className='invitation__content'>
           <div>지금까지 소중한 인연을 지켜왔습니다.</div>
@@ -39,7 +39,7 @@ function Invitation() {
         </div>
         <FamilyInfo dad={process.env.REACT_APP_GROOM_DAD} mom={process.env.REACT_APP_GROOM_MOM} child={process.env.REACT_APP_GROOM_NAME} relation="의 장남" />
         <FamilyInfo dad={process.env.REACT_APP_BRIDE_DAD} mom={process.env.REACT_APP_BRIDE_MOM} child={process.env.REACT_APP_BRIDE_NAME} relation="의 장녀" />
-        <button className='invitation__btn-contact' onClick={openModal}>연락하기</button>
+        <button className='invitation__btn-contact2' onClick={openModal}>연락하기</button>
         {isModalOpen && (
           <ContactModal closeModal={closeModal}/>
         )}

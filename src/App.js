@@ -27,10 +27,10 @@ function App() {
     <div className="App">
       <Nav className="nav-pills nav-fill" variant="tabs" defaultActiveKey="link-0">
         <Nav.Item>
-            <Nav.Link eventKey="link-0" onClick={ ()=>{ setPushTab(0) } }>Version1</Nav.Link>
+            <Nav.Link className="tab_item1" eventKey="link-0" onClick={ ()=>{ setPushTab(0) } }>Version1</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link eventKey="link-1" onClick={ ()=>{ setPushTab(1) } }>Version2</Nav.Link>
+            <Nav.Link className="tab_item2" eventKey="link-1" onClick={ ()=>{ setPushTab(1) } }>Version2</Nav.Link>
         </Nav.Item>
     </Nav>
     <TabContent pushTab={pushTab} />

@@ -9,6 +9,12 @@
     background-color: rgb(192, 99, 99);
   }
   
+  .calendar__line2 {
+    width: 330px;
+    height: 1px;
+    background-color: rgb(99, 123, 192);
+  }
+  
   .calendar__body {
     display: flex;
     flex-direction: column;
@@ -69,8 +75,15 @@
     border: 1px dotted rgb(95, 25, 25);
     padding: 20px 15px;
   }
+  
+  .calendar__remain2 {
+    width: 300px;
+    margin: 20px 0;
+    border: 1px dotted rgb(32, 25, 95);
+    padding: 20px 15px;
+  }
 
-  .calendar__remain span {
+  .calendar__remain span, .calendar__remain2 span {
     margin-right: 10px;
   }
 

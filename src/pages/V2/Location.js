@@ -39,12 +39,12 @@ function Location() {
       <div>서울 강서구 강서로 388 1층</div>
     </div>
     <div id="map" ref={mapRef} className='location__map'></div>
-    <div className='location__map-icon-box'>
-        <div className='location__map-item' onClick={gotoNavermap}>
+    <div className='location__map-icon-box2'>
+        <div className='location__map-item2' onClick={gotoNavermap}>
           <img src={naverMapIcon} className='location__map-icon' alt="naverMap"/>
           <span>네이버지도</span>
         </div>
-        <div className='location__map-item' onClick={gotoKakaomap}>
+        <div className='location__map-item2' onClick={gotoKakaomap}>
           <img src={kakaoMapIcon} className='location__map-icon' alt='kakaoMap'/>
           <span>카카오지도</span>
         </div>

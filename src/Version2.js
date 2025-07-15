@@ -18,7 +18,7 @@ import Calendar from './pages/V2/Calendar.js';
 import Contact from './pages/V2/Account.js';
 import Location from './pages/V2/Location.js';
 import ImgGallery from './pages/V2/ImgGallery.js';
-import Footer from './components/Footer.js';
+import Footer from './components/Footer2.js';
 //import SurveyModal from './components/SurveyModal.js';
 // import Submit from './pages/Submit.js';
 //import Comment from './pages/Comment.js';
