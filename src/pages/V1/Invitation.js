@@ -30,12 +30,15 @@ function Invitation() {
         <img src={flower} className='flower' alt='flower'/>
         <div className='invitation__title'>초대합니다</div>
         <div className='invitation__content'>
-          <div>지금까지 소중한 인연을 지켜왔습니다.</div>
-          <div>앞으로 남은 인생은 가족이 되어 </div>
-          <div>같은 곳을 바라보며</div>
-          <div>함께 걷고자 합니다.</div>
-          <div>두 사람의 새로운 시작을 </div>
-          <div>함께 축복해주시면 감사하겠습니다. </div>
+          <div>매년 1월 18일이 되면,</div>
+          <div>저희는 이 날의 사진첩을 꺼내어보며 </div>
+          <div>인생에서 가장 행복했던</div>
+          <div>기억을 떠올릴 것입니다.</div>
+          <div>&nbsp;&nbsp;</div>
+          <div>그 때, 그 사진 속에,</div>
+          <div>저희와 함께 웃고 있는 </div>
+          <div>여러분이 있었으면 좋겠습니다. </div>
+          <div>&nbsp;&nbsp;</div>
         </div>
         <FamilyInfo dad={process.env.REACT_APP_GROOM_DAD} mom={process.env.REACT_APP_GROOM_MOM} child={process.env.REACT_APP_GROOM_NAME} relation="의 장남" />
         <FamilyInfo dad={process.env.REACT_APP_BRIDE_DAD} mom={process.env.REACT_APP_BRIDE_MOM} child={process.env.REACT_APP_BRIDE_NAME} relation="의 장녀" />

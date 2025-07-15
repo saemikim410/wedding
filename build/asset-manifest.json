@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.b118ff7e.css",
-    "main.js": "/wedding/static/js/main.5a885c3b.js",
+    "main.css": "/wedding/static/css/main.e35965d9.css",
+    "main.js": "/wedding/static/js/main.e2eed5da.js",
     "static/js/787.d00bc756.chunk.js": "/wedding/static/js/787.d00bc756.chunk.js",
     "static/media/taeyeon_poem.mp3": "/wedding/static/media/taeyeon_poem.13d16db4a02836cf5d9d.mp3",
     "static/media/부크크명조_얇은글씨.woff": "/wedding/static/media/부크크명조_얇은글씨.4dd24ae27c5fa573aaf0.woff",
@@ -15,6 +15,7 @@
     "static/media/p2.png": "/wedding/static/media/p2.31b1e18c6f26de5cd79c.png",
     "static/media/p1.png": "/wedding/static/media/p1.0fcdf348c09cbf68941d.png",
     "static/media/flower.png": "/wedding/static/media/flower.a5552bcf0b139bec2fbd.png",
+    "static/media/butterfly.png": "/wedding/static/media/butterfly.a2a1e9b8a89313dc8f25.png",
     "static/media/s5.png": "/wedding/static/media/s5.75f9b506c3c856ea8990.png",
     "static/media/s3.png": "/wedding/static/media/s3.9ccd8297da40efd434e3.png",
     "static/media/s4.png": "/wedding/static/media/s4.29c69ced9439e0fd9f43.png",
@@ -22,12 +23,12 @@
     "static/media/s1.png": "/wedding/static/media/s1.7ffa9f05ab15c8c8c95e.png",
     "static/media/naver.webp": "/wedding/static/media/naver.7717483eebafa7435918.webp",
     "index.html": "/wedding/index.html",
-    "main.b118ff7e.css.map": "/wedding/static/css/main.b118ff7e.css.map",
-    "main.5a885c3b.js.map": "/wedding/static/js/main.5a885c3b.js.map",
+    "main.e35965d9.css.map": "/wedding/static/css/main.e35965d9.css.map",
+    "main.e2eed5da.js.map": "/wedding/static/js/main.e2eed5da.js.map",
     "787.d00bc756.chunk.js.map": "/wedding/static/js/787.d00bc756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b118ff7e.css",
-    "static/js/main.5a885c3b.js"
+    "static/css/main.e35965d9.css",
+    "static/js/main.e2eed5da.js"
   ]
 }
