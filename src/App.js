@@ -1,60 +1,40 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { Nav } from 'react-bootstrap';
+
+
 import './App.css';
 
-import './css/Cover.css'
-import './css/Invitation.css'
-import './css/Calendar.css'
-import './css/Account.css'
-import './css/Gallery.css'
-import './css/Location.css'
-import './css/Footer.css'
-import './css/SurveyModal.css'
-import './css/Submit.css'
-import './css/Comment.css'
-import './css/Quiz.css'
+import Version1 from './Version1.js';
+import Version2 from './Version2.js';
 
 import usePreventZoom from './hooks/usePreventZoom.js';
-import Cover from './pages/Cover.js'
-import Invitation from './pages/Invitation.js';
-import Calendar from './pages/Calendar.js';
-import Contact from './pages/Account.js';
-import Location from './pages/Location.js';
-import ImgGallery from './pages/ImgGallery.js';
-import Footer from './components/Footer.js';
-//import SurveyModal from './components/SurveyModal.js';
-// import Submit from './pages/Submit.js';
-//import Comment from './pages/Comment.js';
-import Quiz from './pages/Quiz.js';
-
 
 
 function App() {
-  usePreventZoom();
+  usePreventZoom();  
 
-  const [isModalOpen, setIsModalOpen] = useState(false); // 우선 모달창 닫아놓음
-  
-    // 모달을 닫기 위한 함수
-    const closeModal = () => {
-      setIsModalOpen(false);
-    };
+  let [pushTab, setPushTab] = useState(0);
 
-    // const openModal = () => {
-    //   setIsModalOpen(true);
-    // }
-
+  function TabContent(props) {
+    if(props.pushTab === 0) {
+        return <Version1 />
+    } else if(props.pushTab === 1) {
+        return <Version2 />
+    }
+}
 
   return (
     <div className="App">
-      {isModalOpen}
-      <Cover/>
-      <Invitation />
-      <Calendar />
-      <ImgGallery />
-      <Location />
-      <Quiz/>
-      <Contact />
-      <Footer />
-    </div>
+      <Nav className="nav-pills nav-fill" variant="tabs" defaultActiveKey="link-0">
+        <Nav.Item>
+            <Nav.Link eventKey="link-0" onClick={ ()=>{ setPushTab(0) } }>Version1</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+            <Nav.Link eventKey="link-1" onClick={ ()=>{ setPushTab(1) } }>Version2</Nav.Link>
+        </Nav.Item>
+    </Nav>
+    <TabContent pushTab={pushTab} />
+  </div>
   );
 }
 

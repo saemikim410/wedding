@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import flower from '../images/flower.png'
-import ContactModal from '../components/ContactModal';
+import flower from '../../images/flower.png'
+import ContactModal from '../../components/ContactModal';
 
 function Invitation() {
 

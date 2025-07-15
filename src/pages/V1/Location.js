@@ -1,6 +1,6 @@
 import React, {useRef, useEffect} from 'react'
-import naverMapIcon from '../images/naver.webp';
-import kakaoMapIcon from '../images/kakao.png';
+import naverMapIcon from '../../images/naver.webp';
+import kakaoMapIcon from '../../images/kakao.png';
 
 function Location() {
   const mapRef = useRef(null);

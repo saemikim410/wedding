@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react'
-import mainPhoto from '../images/photo.png'
+import mainPhoto from '../../images/photo.png'
 import { TbPlayerTrackPrevFilled, TbPlayerSkipBackFilled, TbPlayerSkipForwardFilled, TbPlayerTrackNextFilled } from "react-icons/tb";
 import { BsPlayCircle, BsStopCircle } from "react-icons/bs";
 import { GoHeartFill } from "react-icons/go";
-import myMusic from '../media/taeyeon_poem.mp3';
+import myMusic from '../../media/taeyeon_poem.mp3';
 
 function Cover() {
 
@@ -28,7 +28,7 @@ function Cover() {
 
   return (
     <div className="container">
-        <div className='title'>&ldquo;우리 결혼합니다&rdquo;</div>
+        <div className='title'>We're getting married</div>
         <img className="cover__main-photo" src={mainPhoto} alt='weddingcouple'></img>
         <div className='cover__person'>
         <div>{process.env.REACT_APP_GROOM_NAME}</div>

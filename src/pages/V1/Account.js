@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import flower from '../images/flower.png'
+import flower from '../../images/flower.png'
 // import { MdOutlinePhoneIphone } from "react-icons/md";
 import { FaMoneyCheck } from "react-icons/fa6";
-import Modal from '../components/Modal';
-import '../css/Modal.css'
+import Modal from '../../components/Modal';
+import '../../css/Modal.css'
 
 function ContactButton({ person, account, kakaopay }) {
     const [isModalOpen, setIsModalOpen] = useState(false);

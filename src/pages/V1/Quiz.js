@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/Quiz.css';
+import '../../css/Quiz.css';
 
 const questions = [
     {
