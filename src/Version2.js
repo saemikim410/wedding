@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import './css/Cover2.css'
+import './css/Cover.css'
 import './css/Invitation.css'
 import './css/Calendar.css'
 import './css/Account.css'
