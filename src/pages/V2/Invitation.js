@@ -30,7 +30,7 @@ function Invitation() {
         <img src={butterfly} className='butterfly' alt='butterfly'/>
         <div className='invitation__title'>초대합니다</div>
         <div className='invitation__content'>
-          <div>서로의 계절을 두 해 합께 걸어왔습니다.</div>
+          <div>서로의 계절을 두 해 함께 걸어왔습니다.</div>
           <div>웃음도, 눈물도 나누며 조금씩 닮아진 우리, </div>
           <div>이제 하나의 이름으로</div>
           <div>새로운 계절을 시작하려 합니다.</div>

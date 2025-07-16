@@ -43,7 +43,12 @@
     margin-top: 8px;
     font-size: x-large;
   }
-  
+    
+  .cover__place-detail {
+    margin-top: 8px;
+    font-size: large;
+  }
+
   @keyframes playAnimation {
     0% {
       width: 0

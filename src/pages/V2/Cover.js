@@ -35,8 +35,9 @@ function Cover() {
         <GoHeartFill className='cover__icon-heart' size="0.8em"/>
         <div>{process.env.REACT_APP_BRIDE_NAME}</div>
         </div>
-        <div className='cover__date'>2026年 1月 18日, 11時 50分(日)</div>
+        <div className='cover__date'>2026年 1月 18日 11時 50分(日)</div>
         <div className='cover__place'>더베뉴지 아트홀</div>
+        <div className='cover__place-detail'>서울 강서구 강서로 388 1층 (5호선 발산역 3번 출구)</div>
         <div className='cover__line2'></div>
         <div className='cover__icon-box'>
           <TbPlayerTrackPrevFilled size="1.5em"/>

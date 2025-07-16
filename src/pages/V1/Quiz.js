@@ -3,36 +3,36 @@ import '../../css/Quiz.css';
 
 const questions = [
     {
-      questionText: '신혼여행지로 올바른 곳은?',
-      correctAnswer: '저희는 영국, 스페인으로 여행갑니다.',
+      questionText: '함께 만난 지 얼마나 되었을까요?',
+      correctAnswer: '저희는 사귄지 2년이 지나 3년을 향해 가고있습니다.',
       answerOptions: [
-        { answerText: '호주', isCorrect: false },
-        { answerText: '캐나다', isCorrect: false },
-        { answerText: '스위스', isCorrect: false },
-        { answerText: '영국', isCorrect: true },
-        { answerText: '스페인', isCorrect: true },
+        { answerText: '6개월', isCorrect: false },
+        { answerText: '1년', isCorrect: false },
+        { answerText: '2년', isCorrect: true },
+        { answerText: '5년', isCorrect: false },
+        { answerText: '10년', isCorrect: false },
       ],
     },
     {
-      questionText: '함께 여행한 국가가 아닌 곳은?',
-      correctAnswer: '베트남은 함께 간 적이 없습니다.',
+      questionText: '어떻게 만났을까요?',
+      correctAnswer: '소개팅 해주신 분들 감사합니다.',
       answerOptions: [
-        { answerText: '일본', isCorrect: false },
-        { answerText: '홍콩', isCorrect: false },
-        { answerText: '마카오', isCorrect: false },
-        { answerText: '라오스', isCorrect: false },
-        { answerText: '베트남', isCorrect: true },
+        { answerText: '등산', isCorrect: false },
+        { answerText: '소개팅', isCorrect: true },
+        { answerText: '서점', isCorrect: false },
+        { answerText: '클럽', isCorrect: false },
+        { answerText: '런닝', isCorrect: false },
       ],
     },
     {
-      questionText: '함께 하지 않은 활동은?',
-      correctAnswer: '롯데월드는 함께 간 적이 없어요. 경주월드, 이월드, 디즈니랜드는 함께 갔습니다.',
+      questionText: '둘이 닮은 점은 뭘까요?',
+      correctAnswer: '모두 정답입니다~',
       answerOptions: [
-        { answerText: '마라톤 10km 뛰기', isCorrect: false },
-        { answerText: '한라산 등산하기', isCorrect: false },
-        { answerText: '만리포해수욕장에서 서핑하기', isCorrect: false },
-        { answerText: '롯데월드에서 놀이기구 타기', isCorrect: true },
-        { answerText: 'PC방에서 게임하기', isCorrect: false },
+        { answerText: '먹는거 좋아함', isCorrect: false },
+        { answerText: '들 다 집에 있는 걸 좋아함', isCorrect: false },
+        { answerText: '책 읽는거 좋아함', isCorrect: false },
+        { answerText: '계획 하는거 좋아함', isCorrect: false },
+        { answerText: '모두 정답', isCorrect: true },
       ],
     }
   ];
