@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import { Nav } from 'react-bootstrap';
-
+import React, { useState, useEffect } from 'react';
 
 import './App.css';
 
@@ -13,29 +11,50 @@ import usePreventZoom from './hooks/usePreventZoom.js';
 function App() {
   usePreventZoom();  
 
-  let [pushTab, setPushTab] = useState(0);
+  const [activeTab, setActiveTab] = useState('our');
 
-  function TabContent(props) {
-    if(props.pushTab === 0) {
-        return <Version1 />
-    } else if(props.pushTab === 1) {
-        return <Version2 />
+  useEffect(() => {
+    const body = document.body;
+    if (activeTab === 'our') {
+      body.classList.remove('jeju-mode');
+      body.classList.add('studio-mode');
+    } else {
+      body.classList.remove('studio-mode');
+      body.classList.add('jeju-mode');
     }
-}
 
-  return (
-    <div className="App">
-      <Nav className="nav-pills nav-fill" variant="tabs" defaultActiveKey="link-0">
-        <Nav.Item>
-            <Nav.Link className="tab_item1" eventKey="link-0" onClick={ ()=>{ setPushTab(0) } }>우리 둘</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link className="tab_item2" eventKey="link-1" onClick={ ()=>{ setPushTab(1) } }>그날, 제주</Nav.Link>
-        </Nav.Item>
-    </Nav>
-    <TabContent pushTab={pushTab} />
+    return () => {
+      body.classList.remove('studio-mode', 'jeju-mode');
+    };
+  }, [activeTab]);
+
+
+return (
+  <div className="wedding-tabs-wrapper">
+    <div className="wedding-tabs">
+      <div
+        className={`wedding-tab ${activeTab === 'our' ? 'active' : ''}`}
+        onClick={() => setActiveTab('our')}
+      >
+        우리 둘
+      </div>
+      <div
+        className={`wedding-tab ${activeTab === 'jeju' ? 'active' : ''}`}
+        onClick={() => setActiveTab('jeju')}
+      >
+        그날, 제주
+      </div>
+    </div>
+
+    <div className="tab-content">
+      {activeTab === 'our' ? (
+        <Version1 />
+      ) : (
+        <Version2 />
+      )}
+    </div>
   </div>
-  );
+);
 }
 
 export default App;

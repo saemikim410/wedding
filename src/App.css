@@ -2,42 +2,35 @@
   text-align: center;
   
 }
-
-.nav-tabs {
-  display:flex;
-  justify-content:center;
-  gap:20px;
-  margin-top:
-  50px;
-  font-size:18px
+.wedding-tabs-wrapper {
+  width: 100%;
+  margin: 0;
 }
 
-.tab_item1 {
-  text-decoration-line: none;
-  color: rgb(95, 25, 25); 
-  padding:10px 20px;
-  border-radius:50px;
-  font-weight:700;
-  cursor:pointer;
-  background:#fdf7f7;
-  transition:all .3s
-}
-.tab_item1:hover, .tab_item2:hover{padding:10px 30px}
-.tab_item1.active{color:#fff;background:#f3b4b4}
-
-
-.tab_item2 {
-  text-decoration-line: none;
-  color: rgb(14, 6, 80); 
-  padding:10px 20px;
-  border-radius:50px;
-  font-weight:700;
-  cursor:pointer;
-  background:#eff0f4;
-  transition:all .3s
+.wedding-tabs {
+  display: flex;
+  background: #d0d8f0;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
-.tab_item2.active{color:#fff;background:#96aee8}
+.wedding-tab {
+  flex: 1;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wedding-tab.active {
+  background-color: #ffffff;
+  font-weight: 700;
+  color: #333;
+}
 
 .title {
   font-weight: bold;

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding/static/css/main.8898b4ff.css",
-    "main.js": "/wedding/static/js/main.2f5e7764.js",
+    "main.js": "/wedding/static/js/main.2ebc434d.js",
     "static/js/787.d00bc756.chunk.js": "/wedding/static/js/787.d00bc756.chunk.js",
     "static/media/taeyeon_poem.mp3": "/wedding/static/media/taeyeon_poem.13d16db4a02836cf5d9d.mp3",
     "static/media/부크크명조_얇은글씨.woff": "/wedding/static/media/부크크명조_얇은글씨.4dd24ae27c5fa573aaf0.woff",
@@ -24,11 +24,11 @@
     "static/media/naver.webp": "/wedding/static/media/naver.7717483eebafa7435918.webp",
     "index.html": "/wedding/index.html",
     "main.8898b4ff.css.map": "/wedding/static/css/main.8898b4ff.css.map",
-    "main.2f5e7764.js.map": "/wedding/static/js/main.2f5e7764.js.map",
+    "main.2ebc434d.js.map": "/wedding/static/js/main.2ebc434d.js.map",
     "787.d00bc756.chunk.js.map": "/wedding/static/js/787.d00bc756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8898b4ff.css",
-    "static/js/main.2f5e7764.js"
+    "static/js/main.2ebc434d.js"
   ]
 }
