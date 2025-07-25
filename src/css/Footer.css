@@ -1,6 +1,6 @@
 .footer {
     height: 100px;
-    background-color: rgb(243, 180, 180);
+    background-color: #f3b4b4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
 
 .footer2 {
     height: 100px;
-    background-color: #96aee8;
+    background-color: #c1c9e5;
     display: flex;
     flex-direction: column;
     justify-content: center;

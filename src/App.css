@@ -9,7 +9,7 @@
 
 .wedding-tabs {
   display: flex;
-  background: #d0d8f0;
+  background: #fdf7f7;
   border-radius: 8px 8px 0 0;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
@@ -27,7 +27,7 @@
 }
 
 .wedding-tab.active {
-  background-color: #ffffff;
+  background-color: #c1c9e5;
   font-weight: 700;
   color: #333;
 }
@@ -51,7 +51,7 @@
 }
 
 .butterfly {
-  width: 230px;
+  width: 150px;
 }
 
 button {
@@ -67,5 +67,5 @@ button {
 }
 
 .bc-blue {
-  background-color: #dde3f2;;
+  background-color: #e4e8f2;;
 }

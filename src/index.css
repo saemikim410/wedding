@@ -10,17 +10,17 @@ body {
   font-family: 'GangwonEdu';
   
 }
-/* body.studio-mode {
-  background-color: #FDF2F2;
+body.studio-mode {
+  background-color: #fffafa;
   color: #6B4B3E;
   transition: background-color 0.5s ease;
 }
 
 body.jeju-mode {
-  background-color: #e4e8f2; 
+  background-color: #f0f2f8; 
   color: #3A3A4F;
   transition: background-color 0.5s ease;
-} */
+} 
 
 
 code {
