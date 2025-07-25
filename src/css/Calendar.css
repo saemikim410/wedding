@@ -74,6 +74,7 @@
     margin: 20px 0;
     border: 1px dotted rgb(95, 25, 25);
     padding: 20px 15px;
+    text-align: center;
   }
   
   .calendar__remain2 {
@@ -81,6 +82,7 @@
     margin: 20px 0;
     border: 1px dotted rgb(32, 25, 95);
     padding: 20px 15px;
+    text-align: center;
   }
 
   .calendar__remain span, .calendar__remain2 span {

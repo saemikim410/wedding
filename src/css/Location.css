@@ -5,6 +5,7 @@
 
   .location__details div {
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .location__map-icon-box {

@@ -13,6 +13,7 @@
   .invitation__content div{
     font-size: x-large;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .invitation__family {
